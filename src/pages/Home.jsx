@@ -1,24 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SplitText from "./Split";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Navigate, useNavigate } from "react-router-dom";
+import Navbar from "./Navbar";
 
 function Home() {
+const navigate=useNavigate()
+
   const handleAnimationComplete = () => {
     console.log("All letters have animated!");
   };
+   useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration (in ms)
+      once: true,     // whether animation should happen only once
+    });
+  }, []);
+  
   return (
     <>
+    <Navbar/>
       <div className="w-100 h-100 justify-content-center d-flex align-items-center">
-        <div
-          className="d-flex justify-content-end w-100 mt-3 top-0 position-absolute"
-          id="navbar"
-        >
-          <div className="d-flex justify-content-between " id="navbar2">
-            <button className="navbar-button">Home</button>
-            <button className="navbar-button">About</button>
-            <button className="navbar-button"> My Work </button>
-            <button className="navbar-button">Contact</button>
-          </div>
-        </div>
+       
         {/* SplitText Example */}
         <div id="splittext">
           <SplitText
@@ -36,11 +40,10 @@ function Home() {
             tag="h1" // can be "p", "h1", "h2", etc.
             onLetterAnimationComplete={handleAnimationComplete}
           />
-
           <h3>Full Stack Developer</h3>
           <h3 className="text-center">💻 Turning ideas into scalable web solutions</h3><br />
           <div className="d-flex justify-content-between button2nd" >
-            <button class="beautiful-button">View Project</button>
+            <button class="beautiful-button" onClick={()=>navigate("/mywork")}>View Project</button>
             <button class="beautiful-button">Hire Me</button>
           </div>
         </div>

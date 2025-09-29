@@ -5,7 +5,7 @@
   transition: background 0.1s;
 }
 #navbar {
-  height: 50px;
+  height: 8vh;
   border-left: none;
   border-right: none;
   background: linear-gradient(
@@ -20,6 +20,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
+  
+  
 }
 #splittext {
   height: 500px;
@@ -55,6 +57,12 @@
   display: flex;
   /* Smooth transition */
 }
+#h5{
+text-align:justify;
+padding:20px;
+border-radius:10px;
+background: linear-gradient(35deg, #02075c, #3e0146);
+}
 
 /* Hover animation */
 .beautiful-button:hover {
@@ -68,6 +76,7 @@
   transform: scale(0.75);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 /* Shimmer animation */
 @keyframes button-shimmer {

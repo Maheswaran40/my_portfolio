@@ -120,22 +120,23 @@ const SplitText = ({
         el._rbsplitInstance = null;
       };
     },
-    {
-      dependencies: [
-        text,
-        delay,
-        duration,
-        ease,
-        splitType,
-        JSON.stringify(from),
-        JSON.stringify(to),
-        threshold,
-        rootMargin,
-        fontsLoaded,
-        onLetterAnimationComplete
-      ],
-      scope: ref
-    }
+    // {
+    //   dependencies: [
+    //     text,
+    //     delay,
+    //     duration,
+    //     ease,
+    //     splitType,
+    //     JSON.stringify(from),
+    //     JSON.stringify(to),
+    //     threshold,
+    //     rootMargin,
+    //     fontsLoaded,
+    //     onLetterAnimationComplete
+    //   ],
+    //   scope: ref
+    // }
+    { dependencies: [text, fontsLoaded], scope: ref }
   );
 
   const renderTag = () => {

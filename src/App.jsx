@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./index.css";
 import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Mywork from "./pages/Mywork";
 function App() {
   const [gradient, setGradient] = useState(
     "linear-gradient(45deg, rgb(17,17,73), rgba(12, 1, 1, 1), rgba(80, 4, 70, 1))"
@@ -34,11 +37,13 @@ function App() {
         transition: "background 0.1s",
       }}
         onMouseMove={handleMouseMove}
-        className="d-flex justify-content-center align-items-center text-white"
       >
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/mywork" element={<Mywork />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
       </div>
