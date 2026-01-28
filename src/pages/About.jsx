@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import SplitText from "./Split";
 import profile from "../assets/images/my_profile.jpg";
 import AOS from "aos";
@@ -19,14 +19,14 @@ function About() {
   return (
     <div>
       <div style={{ height: "8vh" }}>
-        <Navbar />
+        {/* <Navbar /> */}
       </div>
       <div
         style={{
           overflowY: "scroll",
-          height: "92vh",
           position: "absolute",
           width: "100%",
+          height:"50%"
         }}
       >
         <div style={{ position: "relative", top: "10px", zIndex: "0" }}>
@@ -91,147 +91,234 @@ function About() {
           <br />
           <div className="text-white container" data-aos="fade-right">
             <p className="text-white bg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              facere dolorem amet repellat nesciunt reiciendis necessitatibus
-              mollitia vitae incidunt quo expedita veritatis, deleniti tempore,
-              soluta voluptatibus cum molestias, culpa doloremque excepturi
-              officia sequi! Et voluptatibus deleniti, eligendi autem
-              repellendus ipsum voluptas repellat magni, corporis repudiandae
-              fuga eum sequi dolorum velit! Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Odit asperiores eum, quasi expedita
-              eaque, quae aspernatur officiis libero laborum praesentium optio
-              autem ut neque architecto nemo quia saepe mollitia cumque! Nisi
-              consequatur provident dolore, magni omnis suscipit neque dolorem
-              adipisci eligendi sint natus, tenetur accusantium, in deserunt ea
-              exercitationem cumque nihil fugit quas ratione aliquid laboriosam
-              aperiam. Architecto aliquid neque quae. Natus iste autem
-              voluptatem soluta, distinctio adipisci dicta pariatur voluptates
-              ipsum? Ducimus nesciunt nobis aperiam, molestiae dolor ab
-              assumenda quos maxime rem eveniet provident vel culpa, molestias
-              eum distinctio tenetur rerum reiciendis ut vitae. Perspiciatis
-              distinctio voluptas consequuntur reiciendis?Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Odio dignissimos laboriosam
-              nostrum veniam blanditiis voluptates consequuntur quo quae
-              possimus nesciunt officiis corrupti excepturi ad, maxime ipsa
-              error eaque perferendis corporis, qui numquam? Quam quis ipsum
-              dolor, dolorem doloremque quos at rem. Eveniet deserunt nam
-              repellendus sint fuga hic atque eligendi ullam architecto
-              recusandae amet, neque perferendis nulla ipsam magni tenetur
-              facilis! Quibusdam doloribus non praesentium saepe facere eligendi
-              libero rem, nihil est facilis minima esse in itaque consequuntur
-              eaque et cum perspiciatis possimus. Facilis incidunt consequuntur
-              corporis odit sapiente eum dolore reiciendis, nam, delectus
-              recusandae quaerat amet quis consectetur? Amet, iste debitis unde
-              optio numquam aspernatur quisquam sequi modi non consequuntur
-              ducimus, alias quod quidem! Perferendis aliquam tempore maxime,
-              ipsa sunt natus ipsum! Amet blanditiis dolores alias omnis. Dolore
-              ex quas eaque similique quidem, nesciunt placeat labore modi
-              libero. Error ad modi ex repellat doloremque, fuga vitae eius,
-              facilis quis alias, blanditiis dolorum! Eveniet similique tenetur,
-              suscipit nemo et neque ullam dicta velit expedita ipsam hic
-              adipisci esse voluptatibus commodi assumenda eligendi quibusdam in
-              corporis numquam! Tempore aut sequi et facilis ut adipisci
-              accusantium nihil, ex fugit voluptatum distinctio blanditiis nisi
-              id quis necessitatibus, eaque aliquam totam, quas corporis illum
-              est voluptate. Voluptatibus eaque itaque fugiat sunt alias fuga
-              sapiente maxime quasi, expedita quibusdam inventore laborum
-              temporibus cupiditate adipisci molestias atque repellendus ut
-              magnam quos placeat, nisi pariatur. Rerum at impedit ea sed
-              cupiditate. Ducimus non repellendus nobis possimus earum
-              provident? Maiores dolorem fuga hic reprehenderit architecto
-              officia, nihil quo consequatur libero, eius, doloremque tempore
-              nisi pariatur non. Aut in similique eaque, labore nemo qui esse
-              minus eos voluptate temporibus ratione culpa nesciunt. Commodi,
-              quam inventore? Est aliquam rerum impedit reprehenderit unde nemo
-              minima quod magnam quam, beatae quas nihil praesentium asperiores
-              aut obcaecati ab magni sed aperiam eius hic, ex enim. Minus fugit
-              repellat adipisci, eius eveniet reiciendis sapiente dolore quod
-              eum itaque eaque. Nisi aperiam quos atque possimus fuga ad sint
-              modi dicta ea iste quidem sunt, in totam natus beatae perspiciatis
-              aliquid eum ab id ducimus tempora illum libero. Laudantium
-              perspiciatis alias voluptates assumenda iusto, laboriosam
-              aspernatur sit voluptatum impedit eaque. Delectus eveniet incidunt
-              officia asperiores rerum dolorem pariatur, natus ab dicta ipsam
-              libero maiores vero autem aliquid voluptate animi vel dolor
-              mollitia hic quas nam. Veniam vitae error excepturi illo
-              assumenda? Iusto excepturi nam quam commodi deserunt incidunt
-              ratione quidem, dolorem reiciendis cupiditate pariatur sint
-              magnam. Laborum eaque possimus nisi animi suscipit cupiditate enim
-              delectus soluta quasi architecto ea minus corrupti, reprehenderit
-              modi recusandae incidunt ut consequuntur aliquam numquam
-              dignissimos accusamus, quam quaerat illo? Magnam earum assumenda
-              dolore, similique non officia quia amet at veniam molestias
-              quibusdam vero! Ratione aliquid a iste, distinctio illo rem harum
-              dicta voluptates autem vero laborum perspiciatis eum neque, nihil
-              suscipit! Distinctio natus quo numquam impedit rem eveniet
-              voluptatem. Harum doloremque maxime quis quibusdam, odit itaque
-              impedit voluptates dignissimos beatae aperiam fugit commodi
-              molestiae consequuntur? Nam sint id reprehenderit hic, iusto velit
-              ab, perspiciatis, earum et delectus quas quasi tempora doloribus
-              quae officiis expedita amet praesentium suscipit tenetur vero quam
-              a illo minus? Officiis voluptatem vero tempore veniam reiciendis
-              illum, repellendus dicta quam asperiores ducimus temporibus natus
-              consectetur. Fuga dignissimos recusandae repudiandae sint impedit
-              nam veritatis voluptate! Et repellendus quaerat ullam excepturi
-              laborum ea, molestias voluptas cum fuga ab eius doloribus a cumque
-              quae doloremque sed natus nisi odit, dolores nesciunt? Eius
-              numquam voluptate animi neque quas, minus officiis sequi ipsam
-              recusandae deserunt. Sequi reprehenderit earum adipisci impedit
-              tenetur! Excepturi, nostrum. Doloribus ipsum voluptatem amet
-              corrupti, ab ipsam quas vitae nesciunt libero architecto.
-              Asperiores, ipsam. Quisquam hic dolor rem reprehenderit illo cum
-              non ipsa ducimus saepe quae qui laudantium, commodi, molestiae
-              deserunt? Possimus, natus placeat praesentium amet fugit quo eaque
-              error alias harum modi accusamus molestiae reprehenderit dolorum
-              reiciendis optio nesciunt commodi perferendis sint distinctio ut,
-              perspiciatis consectetur atque eveniet? Recusandae, magni! Sed
-              dolores voluptatem molestias sunt cupiditate error corrupti? Fuga
-              temporibus similique harum voluptatibus adipisci fugiat, sint
-              tempore animi nobis eos cum minus, ex cupiditate cumque reiciendis
-              odit distinctio molestias repellendus pariatur doloribus dolore
-              est. Totam ullam nemo cum aut aliquid numquam, ipsam quia!
-              Maiores, corrupti sed perferendis doloremque excepturi porro odio
-              enim fuga soluta dolor officia sit nisi! Hic architecto, nostrum
-              maiores id nesciunt, in sapiente pariatur ducimus nulla cumque
-              recusandae dicta consequatur debitis corrupti iure exercitationem,
-              saepe assumenda. Dolores, provident repellendus! Laudantium
-              sapiente necessitatibus nobis exercitationem, aliquam autem magnam
-              velit, atque recusandae fugiat asperiores eum. Eligendi, delectus.
-              Accusantium libero iure suscipit neque vitae, officiis saepe
-              aliquam fuga delectus. Quibusdam et esse modi maxime officia porro
-              explicabo corporis molestiae nulla libero iste doloribus
-              excepturi, doloremque aperiam suscipit dolor non optio sed
-              voluptatibus ipsam incidunt voluptatum officiis neque. Rerum culpa
-              est illo recusandae illum vel dolores rem labore dignissimos!
-              Mollitia culpa, dolore, eum tempore voluptas adipisci quaerat
-              error, repellat dicta eos vero officiis! Suscipit repellat
-              ratione, ipsum ad provident sequi ipsam voluptatem ex tenetur
-              dignissimos doloremque accusamus iure laborum placeat distinctio
-              debitis saepe deserunt officiis aperiam voluptate praesentium amet
-              corrupti. Numquam omnis reiciendis maiores quas doloribus facilis
-              quasi. Iste, eligendi veritatis provident repellat in cupiditate
-              similique iusto qui dolorem. Cumque dolores id libero corrupti
-              optio alias error! Magnam quia beatae aut laudantium repellendus?
-              Possimus, eaque placeat. Assumenda quibusdam nemo, cumque ab ex
-              temporibus accusantium laudantium earum nam explicabo obcaecati
-              similique quos, vero, aperiam voluptas! Ratione at eligendi cumque
-              minima optio officiis quos sunt maiores, qui tenetur. Quibusdam
-              non inventore nemo obcaecati iste et ut, tenetur saepe, voluptatum
-              soluta in, quisquam quod maiores. Natus labore debitis repellendus
-              tenetur nesciunt, voluptatum, dolorum, blanditiis reprehenderit
-              quia assumenda eum. Aliquam nulla sed quibusdam saepe iusto?
-              Itaque quidem voluptas cupiditate quod natus earum nobis enim
-              alias doloremque minima possimus nisi fugiat commodi, repellendus
-              qui, voluptatum nostrum veniam reiciendis tenetur consectetur
-              ullam deleniti. Quis, sint? Molestiae maiores adipisci veritatis
-              sit? Necessitatibus quibusdam enim nesciunt saepe, earum
-              voluptates sapiente in quod, assumenda quis reiciendis voluptas,
-              doloribus iusto minima dignissimos molestiae nobis similique natus
-              blanditiis! Voluptas, asperiores, dignissimos odio doloribus a
-              veniam vel suscipit atque fuga illum amet.
+          niam vel suscipit atque fuga illum amet.
             </p>
           </div>
         </div>
+                  <div className="row ">
+            {/* Frontend */}
+            <div
+              className="col-sm-6 col-lg-6 d-flex justify-content-center my-2"
+              data-aos="fade-right"
+            >
+              <div className="techskill-div px-3">
+                <h5>FRONTEND TECHNOLOGIES :</h5>
+                <br />
+                <div className="row">
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="0"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/b123b7cd1937e4fc11267e562159764bb15946dd1d23a6ef08f3803ab49da1ba/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f68746d6c2d352e706e67"
+                        alt="html"
+                        width="100"
+                      />
+                      <h5>HTML</h5>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4  col-6 my-1"
+                    data-aos="fade-right"
+                    data-aos-delay="200"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/aae5d91491e403b1f9d176ee05ee086627dc901536fb3691c389dfbf97ef9f04/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f637373332e706e67"
+                        alt="css icon"
+                        width="100"
+                      />
+                      <h5>CSS</h5>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4  col-6 my-1"
+                    data-aos="fade-right"
+                    data-aos-delay="400"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/6457b86fc8e582d6cc528a3fb75aefb2f33defddbc8b22beebac5f2802169ee3/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f626f6f7473747261702e706e67"
+                        width="100"
+                        alt="bootstrap icon"
+                      />
+                      <h5>Bootstrap</h5>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4  col-6 my-1"
+                    data-aos="fade-right"
+                    data-aos-delay="600"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/00dd552ba8020fc50f92364518290fc16235a7f21a5b7ddbc0a6cb2131597356/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f6a6176617363726970742e706e67"
+                        width="100"
+                        alt="js icon"
+                      />
+                      <h5>Java Script</h5>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="800"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/0a231a271e64d7b99093df977d12dfdd86db73d63eac0b1415b2620fe1f2726d/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f72656163742d6e61746976652e706e67"
+                        width="100"
+                        alt="js icon"
+                      />
+                      <h5>React JS</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            {/* backen tech */}
+            <div
+              className="col-sm-6 col-lg-6 d-flex justify-content-center my-2"
+              data-aos="fade-left"
+            >
+              <div className="techskill-div px-3 ">
+                <h5>BACKEND TECHNOLOGIES :</h5>
+                <br />
+                <div className="row">
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="0"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/754d83c6db7b05918c64b485f537f7e07aaa255b0f967a44ff19ec616fbadf51/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f6e6f64656a732e706e67"
+                        alt="html"
+                        width="100"
+                      />
+                      <h5>Node JS</h5>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="200"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/72a52899a8dcde00aaf02882493c7806b27d54bf130b8483741fedfd2a59e8ef/68747470733a2f2f696d672e69636f6e73382e636f6d2f6e6f6c616e2f35302f657870726573732d6a732e706e67"
+                        alt="css icon"
+                        width="100"
+                      />
+                      <h5>Express JS</h5>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="400"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/b010a2291f794256d711a8e237e9da2f03b54e97896ab6f1b79b3cfac0308399/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f6d6f6e676f64622e706e67"
+                        width="100"
+                        alt="bootstrap icon"
+                      />
+                      <h5>Mongo DB</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            {/* Tools */}
+            <div
+              className="col-sm-6 col-lg-6 d-flex justify-content-center my-2"
+              data-aos="fade-right"
+            >
+              <div className="techskill-div px-3">
+                <h5>TOOLS :</h5>
+                <br />
+                <div className="row">
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="0"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/d7abf49b0eee3ec680030814409c54313a2fcec8221126ce145da1c580f723b3/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f76697375616c2d73747564696f2d636f64652d323031392e706e67"
+                        alt="html"
+                        width="100"
+                      />
+                      <h5>VS Code</h5>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="200"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://github.com/Maheswaran40/Maheswaran40/raw/main/assets/swiper-img.png"
+                        alt="css icon"
+                        width="100"
+                      />
+                      <h5>Swiper</h5>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="400"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://github.com/Maheswaran40/Maheswaran40/raw/main/assets/reactboot-img.png"
+                        width="100"
+                        alt="bootstrap icon"
+                      />
+                      <h5>React Bootstrap</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            {/* Tools */}
+            <div
+              className="col-sm-6 col-lg-6 d-flex justify-content-center my-2 "
+              data-aos="fade-left"
+            >
+              <div className="techskill-div px-3">
+                <h5>VERSON CONTROL :</h5>
+                <br />
+                <div className="row">
+                  <div
+                    className="col-lg-4  col-6 my-1 "
+                    data-aos="fade-right"
+                    data-aos-delay="0"
+                  >
+                    <div className="d-flex justify-content-center align-items-center flex-column">
+                      <img
+                        src="https://camo.githubusercontent.com/50c0d04ce6070cd311f5f7ca0b6f30313f803cdb6fe9fa7e57bd621304a1baa0/68747470733a2f2f696d672e69636f6e73382e636f6d2f6e6f6c616e2f35302f6769746875622e706e67"
+                        alt="html"
+                        width="100"
+                      />
+                      <h5>Github</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   );
